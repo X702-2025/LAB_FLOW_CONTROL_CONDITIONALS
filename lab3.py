@@ -1,6 +1,6 @@
 movieName = "mission impossible"
-rating: int = 3
-popularity: float = 72.65
+rating = int(input("Enter a Rating: "))
+popularity = float(input("Enter a popularity score: "))
 
 if (rating >= 4) and (rating <= 5) and (popularity > 80):
     print("Highly recommended")
